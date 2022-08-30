@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family=Outfit:wght@100;200;300;400;500;600;700;800;900 & display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+  background-color: rgb(208, 208, 214);
+  font-family:Arial, Helvetica, sans-serif
+  
+  
+  
+}
+p{
+  font-size: 18px;
+  margin: 10px;
+  
+}
+main{
+  display: flex;
+  justify-content: center;
+  color: #8bacda;
+  background-color: rgb(0, 0, 0);
+ 
+}
+h1{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+.container{
+
+  padding-top: 17px;
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+  background-color:#0d192b;
+  width: 390px;
+  height: 620px;
+  border-radius: 15px;
+}
+.card{
+  background-color:rgb(20, 37, 61);
+  border-radius: 15px;
+  width: 350px;
+  height: 587px;
+}
+.foto{
+  margin-top: 14px;
+  margin-left: 16px;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  border-radius: 15px;
+}
+article{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 60px;
+}
+.prof{
+  border: solid white 1px;
+  width: 31px;
+  height: 31px;
+  background-color: white;
+  border-radius: 26px;
+}
+.eth{
+  color: hsl(178, 100%, 50%);
+}
+p.line{
+  color: hsl(215, 32%, 27%);
+  text-indent: 100px;
+}
+.end{
+  color: aliceblue;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: cyan;
+  
+}
+.foto:hover{
+ 
+}
